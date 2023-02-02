@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>headlinks}}
+</head>
+
+<body>
+
+    <!-- Pre- Loader Start -->
+    <div class="loader_bg">
+        <div class="loader">
+        </div>
+    </div>
+
+    {{>navbar}}
+    
+
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+
+                    <!-- Left side Header  -->
+                    <div class="col-md-6 col-12 main_header_right align-items-center">
+                        {{!-- <figure>
+                            <img src="./images/Avatar/programmer.png" height="300rem" width="300rem" alt="about image"
+                                class="img-fluid">
+                        </figure> --}}
+                        <figure>
+                            <img src="./images/Avatar/about7.png" alt="about image" class="img-fluid" id="aboutimage">
+                        </figure>
+
+                    </div>
+
+
+                    <!-- Right side Header  -->
+                    <div class="col-md-6 col-12 main_header_left">
+                        <p>Welcome To Whether App</p>
+                        <h1 id="abt_hed">I Am A <span class="texr-clr">MERN STACK DEVELOPER </span>and Youtuber</h1>
+                        <a href="https://akashportfolio1419.netlify.app/" target="_Akash_Portfolio"><button
+                                style="margin-top: 7rem;">About Me</button></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer section -->
+
+    {{>footer}}
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        setTimeout(function () {
+            $('.loader_bg').fadeToggle();
+        }, 900);
+    </script>
+</body>
+
+</html>
