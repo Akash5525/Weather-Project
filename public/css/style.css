@@ -1052,3 +1052,7 @@ sup {
     margin-bottom: 3rem;
     
 }
+#err_btn:hover{
+    color: white;
+    background-color: #1b1c1d;
+}
