@@ -457,6 +457,9 @@ footer p {
     .texr-clr {
         font-size: 27px;
     }
+    figure img {
+    margin-right: 45rem;
+    margin-top: 1rem;
 }
 
 @media (max-width:565px) {
@@ -467,6 +470,9 @@ footer p {
     .texr-clr {
         font-size: 20px;
     }
+    figure img {
+    margin-right: 45rem;
+    margin-top: 1rem;
 }
 
 /* temp detials show here */
