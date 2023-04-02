@@ -6,7 +6,7 @@ const temp_status = document.getElementById('temp_status'); /* For Dynamic Tempr
 const datahide = document.querySelector('.data_hide');
 
 const getInfo = async (event) => {
-    event.preventDefault();                            /* By using this Page Can't reload again after search */
+    event.preventDefault();                            /* By 1using this Page Can't reload again after search */
     let cityVal = cityName.value;
     if (cityVal === "" || cityName === undefined || cityName === null) {
         city_name.innerText = `Please Write The Name Before Search`;

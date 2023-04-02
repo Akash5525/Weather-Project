@@ -52,7 +52,7 @@ app.set('views', templates_path);
 hbs.registerPartials(partials_path);
 app.use(express.static(homepath));        // When u r using dynamical routing so u need this first.
 
-//Template Engine Route 
+//Template Engine Route1
 app.get("/", (req, res) => {
     res.render('index');
 });
