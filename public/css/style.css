@@ -432,7 +432,7 @@ footer p {
     font-size: 27px;
   }
 
-<<<<<<< HEAD
+/* <<<<<<< HEAD */
   .texr-clr {
     font-size: 27px;
   }
@@ -440,14 +440,14 @@ footer p {
     margin-right: 45rem;
     margin-top: 1rem;
   }
-=======
+/* ======= */
     .texr-clr {
         font-size: 27px;
     }
     figure img {
     margin-right: 45rem;
     margin-top: 1rem;
->>>>>>> origin/master
+/* >>>>>>> origin/master */
 }
 
 @media (max-width: 565px) {
@@ -455,7 +455,7 @@ footer p {
     font-size: 20px;
   }
 
-<<<<<<< HEAD
+/* <<<<<<< HEAD */
   .texr-clr {
     font-size: 20px;
   }
@@ -463,14 +463,15 @@ footer p {
     margin-right: 45rem;
     margin-top: 1rem;
   }
-=======
+/* ======= */
     .texr-clr {
         font-size: 20px;
     }
     figure img {
     margin-right: 45rem;
     margin-top: 1rem;
->>>>>>> origin/master
+/* >>>>>>> origin/master */
+}
 }
 
 /* temp detials show here */
@@ -1035,10 +1036,11 @@ sup {
   color: white;
   background-color: #1b1c1d;
 }
-<<<<<<< HEAD
-=======
+/* <<<<<<< HEAD */
+/* ======= */
 #err_btn:hover{
     color: white;
     background-color: #1b1c1d;
 }
->>>>>>> origin/master
+}
+/* >>>>>>> origin/master */
